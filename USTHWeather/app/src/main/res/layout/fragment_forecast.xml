@@ -9,7 +9,7 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="414dp"
+        android:layout_height="@dimen/parent_height"
         android:orientation="vertical">
 
         <LinearLayout
@@ -19,15 +19,15 @@
             android:orientation="horizontal">
 
             <TextView
-                android:layout_width="80dp"
+                android:layout_width="@dimen/day_width"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:gravity="center_vertical"
                 android:paddingLeft="25dp"
-                android:text="Mon" />
+                android:text="@string/mon" />
 
             <ImageView
-                android:layout_width="150px"
+                android:layout_width="@dimen/ico_width"
                 android:layout_height="match_parent"
                 android:src="@drawable/rainy" />
 
@@ -43,13 +43,13 @@
                     android:autoSizeTextType="uniform"
                     android:paddingLeft="20dp"
                     android:paddingTop="10dp"
-                    android:text="Rain Heavily" />
+                    android:text="@string/rain_heavily" />
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="31dp"
                     android:paddingLeft="20dp"
-                    android:text="22C" />
+                    android:text="@string/_22c" />
             </LinearLayout>
         </LinearLayout>
 
@@ -65,10 +65,10 @@
                 android:layout_weight="1"
                 android:gravity="center_vertical"
                 android:paddingLeft="25dp"
-                android:text="Tue" />
+                android:text="@string/tue" />
 
             <ImageView
-                android:layout_width="150px"
+                android:layout_width="@dimen/ico_width"
                 android:layout_height="match_parent"
                 android:src="@drawable/sun" />
 
@@ -79,12 +79,12 @@
                 android:orientation="vertical">
 
                 <TextView
-                    android:layout_width="200dp"
+                    android:layout_width="@dimen/status_width"
                     android:layout_height="wrap_content"
                     android:autoSizeTextType="uniform"
                     android:paddingLeft="20dp"
                     android:paddingTop="10dp"
-                    android:text="Sunny" />
+                    android:text="@string/sunny" />
 
                 <TextView
                     android:layout_width="match_parent"
@@ -106,10 +106,10 @@
                 android:layout_weight="1"
                 android:gravity="center_vertical"
                 android:paddingLeft="25dp"
-                android:text="Wed" />
+                android:text="@string/wed" />
 
             <ImageView
-                android:layout_width="150px"
+                android:layout_width="@dimen/ico_width"
                 android:layout_height="match_parent"
                 android:src="@drawable/cloudy" />
 
@@ -125,7 +125,7 @@
                     android:autoSizeTextType="uniform"
                     android:paddingLeft="20dp"
                     android:paddingTop="10dp"
-                    android:text="Mostly Cloudy" />
+                    android:text="@string/mostly_cloudy" />
 
                 <TextView
                     android:layout_width="match_parent"
@@ -147,7 +147,7 @@
                 android:layout_weight="1"
                 android:gravity="center_vertical"
                 android:paddingLeft="25dp"
-                android:text="Thu" />
+                android:text="@string/thu" />
 
             <ImageView
                 android:layout_width="150px"
@@ -166,7 +166,7 @@
                     android:autoSizeTextType="uniform"
                     android:paddingLeft="20dp"
                     android:paddingTop="10dp"
-                    android:text="Partly Cloudy" />
+                    android:text="@string/partly_cloudy" />
 
                 <TextView
                     android:layout_width="match_parent"
@@ -188,7 +188,7 @@
                 android:layout_weight="1"
                 android:gravity="center_vertical"
                 android:paddingLeft="25dp"
-                android:text="Fri" />
+                android:text="@string/fri" />
 
             <ImageView
                 android:layout_width="150px"
@@ -207,7 +207,7 @@
                     android:autoSizeTextType="uniform"
                     android:paddingLeft="20dp"
                     android:paddingTop="10dp"
-                    android:text="Rain Heavily" />
+                    android:text="@string/rain_heavily" />
 
                 <TextView
                     android:layout_width="match_parent"
@@ -229,7 +229,7 @@
                 android:layout_weight="1"
                 android:gravity="center_vertical"
                 android:paddingLeft="25dp"
-                android:text="Sat" />
+                android:text="@string/sat" />
 
             <ImageView
                 android:layout_width="150px"
@@ -248,7 +248,7 @@
                     android:autoSizeTextType="uniform"
                     android:paddingLeft="20dp"
                     android:paddingTop="10dp"
-                    android:text="Rain Heavily" />
+                    android:text="@string/rain_heavily" />
 
                 <TextView
                     android:layout_width="match_parent"
@@ -270,7 +270,7 @@
                 android:layout_weight="1"
                 android:gravity="center_vertical"
                 android:paddingLeft="25dp"
-                android:text="Sun" />
+                android:text="@string/sun" />
 
             <ImageView
                 android:layout_width="150px"
@@ -289,7 +289,7 @@
                     android:autoSizeTextType="uniform"
                     android:paddingLeft="20dp"
                     android:paddingTop="10dp"
-                    android:text="Sunny" />
+                    android:text="@string/sunny" />
 
                 <TextView
                     android:layout_width="match_parent"

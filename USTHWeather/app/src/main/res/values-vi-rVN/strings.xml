@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">USHT Thời tiết</string>
+    <string name="mon">Thứ 2</string>
+    <string name="rain_heavily">Mưa to</string>
+    <string name="tue">Thứ 3</string>
+    <string name="sunny">Có nắng</string>
+    <string name="wed">Thứ 4</string>
+    <string name="thu">Thứ 5</string>
+    <string name="fri">Thứ 6</string>
+    <string name="partly_cloudy">Có mây</string>
+    <string name="sat">Thứ 7</string>
+    <string name="sun">Chủ nhật</string>
+    <string name="mostly_cloudy">Nhiều mây</string>
+</resources>
