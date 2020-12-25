@@ -44,8 +44,8 @@ public class WeatherAndForecastFragment extends Fragment {
                              Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_weather_and_forecast, container, false);
 
-        TextView cityName = view.findViewById(R.id.cname);
-        cityName.setText(city);
+//        TextView cityName = view.findViewById(R.id.city_name);
+//        cityName.setText(city);
 
         return view;
     }
