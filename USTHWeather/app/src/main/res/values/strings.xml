@@ -12,4 +12,6 @@
     <string name="sun">Sun</string>
     <string name="mostly_cloudy">Mostly Cloudy</string>
     <string name="partly_cloudy">Partly Cloudy</string>
+    <string name="refresh">Refresh</string>
+    <string name="setting">Setting</string>
 </resources>

@@ -34,9 +34,9 @@ public class WeatherAndForecastFragment extends Fragment {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        if (getArguments() != null) {
-            city = getArguments().getString(ARG_PARAM1);
-        }
+//        if (getArguments() != null) {
+//            city = getArguments().getString(ARG_PARAM1);
+//        }
     }
 
     @Override
